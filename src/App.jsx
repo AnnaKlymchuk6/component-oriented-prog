@@ -1,3 +1,4 @@
+import "./App.css";
 import KpiCard from "./components/KpiCard";
 
 function App() {

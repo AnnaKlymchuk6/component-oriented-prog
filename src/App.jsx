@@ -1,11 +1,26 @@
+import { useState } from "react";
 import "./App.css";
 import KpiCard from "./components/KpiCard";
 import Counter from "./components/Counter";
+import Toggle from "./components/Toggle";
 
 function App() {
+
+    const [isDark, setIsDark] = useState(false);
+
+    function themeToggle(){
+        setIsDark(!isDark);
+    }
+
     return (
-        <div>
+        <div className={isDark ? "dark-theme" : "light-theme"}>
+            
             <h1>Countries Dashboard</h1>
+
+                <Toggle
+                    isDark={isDark}
+                    onToggle={themeToggle}
+                />
 
             <div className="kpi-container">
                 <KpiCard

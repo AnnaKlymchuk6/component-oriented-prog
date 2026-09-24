@@ -62,3 +62,36 @@
 .counter-buttons button:hover {
   background-color: #eee;
 }
+
+.light-theme {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.dark-theme {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.theme-toggle {
+  margin-bottom: 20px;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background-color: #eee;
+}
+
+.dark-theme .theme-toggle {
+  background-color: #444;
+  color: #ffffff;
+  border-color: #666;
+}

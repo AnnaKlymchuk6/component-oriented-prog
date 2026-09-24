@@ -95,3 +95,29 @@
   color: #ffffff;
   border-color: #666;
 }
+
+.filtered-list {
+  margin-top: 20px;
+  width: 400px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.filtered-list h2 {
+  margin-top: 0;
+}
+
+.filtered-list select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.country-list {
+  margin-top: 15px;
+}
+
+.country-list p {
+  margin: 8px 0;
+}

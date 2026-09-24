@@ -3,6 +3,7 @@ import "./App.css";
 import KpiCard from "./components/KpiCard";
 import Counter from "./components/Counter";
 import Toggle from "./components/Toggle";
+import FilteredList from "./components/FilteredList";
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
 
     return (
         <div className={isDark ? "dark-theme" : "light-theme"}>
-            
+
             <h1>Countries Dashboard</h1>
 
                 <Toggle
@@ -43,6 +44,8 @@ function App() {
             </div>
 
             <Counter />
+
+            <FilteredList />
         </div>
     );
 }

@@ -26,3 +26,39 @@
   margin: 0;
   font-size: 14px;
 }
+
+.counter {
+  margin-top: 20px;
+  width: 200px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.counter h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.counter-value {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.counter-buttons button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.counter-buttons button:hover {
+  background-color: #eee;
+}

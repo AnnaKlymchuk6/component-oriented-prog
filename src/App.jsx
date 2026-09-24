@@ -1,5 +1,6 @@
 import "./App.css";
 import KpiCard from "./components/KpiCard";
+import Counter from "./components/Counter";
 
 function App() {
     return (
@@ -25,6 +26,8 @@ function App() {
                     change="0"
                 />
             </div>
+
+            <Counter />
         </div>
     );
 }

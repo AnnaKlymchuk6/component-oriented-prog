@@ -1,0 +1,123 @@
+.kpi-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.kpi-card {
+  width: 200px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.kpi-card h3 {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.kpi-value {
+  margin: 0 0 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.kpi-change {
+  margin: 0;
+  font-size: 14px;
+}
+
+.counter {
+  margin-top: 20px;
+  width: 200px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.counter h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.counter-value {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.counter-buttons button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.counter-buttons button:hover {
+  background-color: #eee;
+}
+
+.light-theme {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.dark-theme {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.theme-toggle {
+  margin-bottom: 20px;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background-color: #eee;
+}
+
+.dark-theme .theme-toggle {
+  background-color: #444;
+  color: #ffffff;
+  border-color: #666;
+}
+
+.filtered-list {
+  margin-top: 20px;
+  width: 400px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.filtered-list h2 {
+  margin-top: 0;
+}
+
+.filtered-list select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.country-list {
+  margin-top: 15px;
+}
+
+.country-list p {
+  margin: 8px 0;
+}
